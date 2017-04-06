@@ -26,7 +26,7 @@ Lagrange is a minimalist Jekyll theme. The purpose of this theme is to provide a
 
 [Text and Formatting]({{ site.github.url }}{% post_url 2015-09-09-Text-Formatting %})
 
-[Math and Code Formatting]({{ site.github.url }}{% post_url 2015-08-08-Math-and-Code-Formatting %})
+[Math and Code Formatting]({{ site.github.url }}{% post_url 2013-08-08-Math-and-Code-Formatting %})
 
 ### Questions?
 
