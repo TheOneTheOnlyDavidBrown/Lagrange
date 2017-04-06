@@ -4,8 +4,8 @@ title: "Wiring my house"
 categories: journal
 tags: [documentation,sample]
 image:
-  feature: sewing.jpg
-  teaser: sewing-teaser.jpg
+  feature: network-cables.jpg
+  teaser: network-cables-teaser.jpg
   credit:
   creditlink:
 ---
