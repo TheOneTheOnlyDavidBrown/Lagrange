@@ -9,7 +9,7 @@ image:
   credit:
   creditlink:
 ---
-*Article originally posted in the [Orlando Developer blog](http://orlandodevs.com/blog/decoupling-application-logic-from-your-framework/){:target="_blank"}*
+*Article originally posted in the [Orlando Developer blog](http://orlandodevs.com/blog/decoupling-application-logic-from-your-framework/){:target="_blank"}*.
 
 In recent years, JavaScript has evolved at a rapid pace. So rapid that any application you're working on as you read this will be nearly deprecated by the time you launch it. Okay, that might be a _bit_ hyperbolic but at the very least something newer and better will be available. This speed has prompted me to think of new ways to approach front-end applications to yield maximum reusability across frameworks by refactoring the core logic of the application into self-contained ES6 modules.
 

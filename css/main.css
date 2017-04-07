@@ -124,7 +124,7 @@ blockquote p {
 .masthead {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
   font-family: "Quattrocento Sans", sans-serif;
 }
 
@@ -147,11 +147,12 @@ blockquote p {
 */
 
 .post-container {
+  display: inline-block;
   margin-bottom: 4rem;
 }
 
 .posts {
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
   padding: 0px;
   list-style: none;
 }
