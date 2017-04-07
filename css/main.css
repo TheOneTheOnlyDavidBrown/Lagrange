@@ -157,11 +157,14 @@ blockquote p {
 }
 
 .post-date {
-  display: block;
+  display: inline-block;
   margin-bottom: 1rem;
+  vertical-align: middle;
+  height: 50px;
   color: #9a9a9a;
   font-family: 'Quattrocento Sans', sans-serif;
   font-size:0.8rem;
+  padding-left: 5px;
 }
 
 @media (max-width: 30rem) {
@@ -447,4 +450,9 @@ pre {
 
 .fa-codepen:hover {
 	color: black;
+}
+
+.handle-image {
+    display: inline;
+    border-radius: 50%;
 }
