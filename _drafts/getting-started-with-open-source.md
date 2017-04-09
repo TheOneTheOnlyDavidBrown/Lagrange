@@ -4,6 +4,7 @@ title: "Getting started with open source"
 date: 2017-04-29
 categories: musings
 tags: [open-source]
+comments: true
 image:
   feature: hacker.jpg
   teaser: hacker-teaser.jpg
