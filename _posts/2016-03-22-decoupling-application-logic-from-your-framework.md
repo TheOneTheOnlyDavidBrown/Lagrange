@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  Decoupling application logic from your framework
+date: 2017-03-22
 categories: musings
 tags: [programming,javascript,angular]
 image:
@@ -113,4 +114,3 @@ I hope I've inspired you to think more critically about the way you approach you
 
 #### tl;dr
 Writing your modules outside the framework lets you test them easier, creates more modular/reusable code, and yields to easier migrations from framework to framework and updating versions of a framework.
-

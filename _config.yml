@@ -1,11 +1,11 @@
 # Site Settings
 title:               David C. Brown
-tagline:             Full-stack Software Engineer in Orlando, FL
+tagline:             Software Engineer. Hacker. Not a lemming.
 description:
 baseurl:            #"/Lagrange"
 url:                #"https://TheOneTheOnlyDavidBrown.github.io"
 github:
-  url:               #"https://TheOneTheOnlyDavidBrown.github.io/davidcbrownio"
+  url:               "https://TheOneTheOnlyDavidBrown.github.io/davidcbrownio"
 author:
   name:              "David C. Brown"
   email:             "me@davidcbrown.io"
@@ -30,3 +30,4 @@ markdown:            kramdown
 highlighter:         rouge
 permalink:           none
 gems:                [jekyll-paginate]
+future:              false

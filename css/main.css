@@ -139,6 +139,7 @@ blockquote p {
 }
 
 .masthead-subtitle {
+  display: inline-block;
   color: #999;
 }
 
