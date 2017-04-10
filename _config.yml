@@ -2,8 +2,6 @@
 title:               David C. Brown
 tagline:             Software Engineer. Hacker. Not a lemming.
 description:
-#baseurl:              #"/davidcbrownio"
-#url:                  #"https://TheOneTheOnlyDavidBrown.github.io"
 baseurl:             "/davidcbrownio"
 url:                 "https://TheOneTheOnlyDavidBrown.github.io"
 github:
