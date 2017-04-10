@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Decoupling application logic from your framework
-date: 2017-03-22
+date: 2016-03-22
 categories: musings
 tags: [programming,javascript,angular]
 image:
