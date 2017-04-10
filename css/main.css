@@ -460,3 +460,7 @@ pre {
     display: inline;
     border-radius: 50%;
 }
+
+.clearfix {
+    clear: both;
+}
