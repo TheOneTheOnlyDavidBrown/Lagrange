@@ -8,7 +8,7 @@ title: Musings
     <a href="{{ post.url }}">{{ post.title }}</a>
   </h1>
   {% if post.image.teaser %}
-    <a href="{{ post.url }}"><img src="{{ site.url }}/{{ site.baseurl }}/images/{{ post.image.teaser }}"></a>
+    <a href="{{ site.url }}/{{ site.baseurl }}{{ post.url }}"><img src="{{ site.url }}/{{ site.baseurl }}/images/{{ post.image.teaser }}"></a>
   {% endif %}
   <p>
     {{ post.content | strip_html | truncate: 350 }} <a href="{{ site.url }}/{{ site.baseurl }}/{{ post.url }}">Read more</a>
