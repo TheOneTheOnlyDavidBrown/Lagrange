@@ -5,7 +5,7 @@ title: Musings
 {% for post in site.posts %}
 <div class="posts">
   <h1>
-    <a href="{{ post.url }}">{{ post.title }}</a>
+    <a href="{{ site.url }}/{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a>
   </h1>
   {% if post.image.teaser %}
     <a href="{{ site.url }}/{{ site.baseurl }}{{ post.url }}"><img src="{{ site.url }}/{{ site.baseurl }}/images/{{ post.image.teaser }}"></a>
