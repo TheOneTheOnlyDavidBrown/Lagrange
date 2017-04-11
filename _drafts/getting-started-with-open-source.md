@@ -17,12 +17,9 @@ Purpose of article:
 + explain how to contribute
 
 
+It took me over two years into my career to start contributing to open source. I, and if you're reading this you probably feel the same, felt intimidated by proposing changes to a project that someone else with (presumably) many more years of experience created and will critique. But It's also the best way to hone your skillset because if they critique your code, you will learn and fine tune your craft. And the more code you expose yourself to, the better your code will be. If you ascribe to Malcolm Gladwell's 10,000 hour rule you will know that exposure and practice play a huge part in developing skillsets.
 
-Many younger developers want to contribute to open source but often times don't know how to go about doing it or find it intimidating. And it can be intimitading to propose a change to an existing code base that developers with many more years of experience will critique. But It's also the best way to hone your skillset because if they critique your code, you will learn and fine tune your craft.
-
-You should never be afraid of constructive criticism. The community is very forgiving. If the code doesn't work right, it won't be merged. That is the worst case scenario.
-
-It took me over two years in the field before I actually proposed a change to an open source library. My only regret was not contributing to any library sooner.
+Much like Pascal's Wager, the worst case for contributing (the maintainer rejecting your change) is the same (from a project perspective) as doing nothing. My only regret for waiting so long to contribute was not doing it sooner.
 
 I consider open source contributions a big plus on a a developer's resume. It shows enthusiasm and excitment for their field and their craft of building great software. With so many open source libraries available, if they haven't contributed to something, I'd be concerned.
 
