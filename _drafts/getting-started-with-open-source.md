@@ -3,7 +3,7 @@ layout: post
 title: "Getting started with open source"
 date: 2017-04-29
 categories: musings
-tags: [open-source]
+tags: [open-source,git,github,advice]
 comments: true
 image:
   feature: hacker.jpg
@@ -12,26 +12,37 @@ image:
   creditlink:
 ---
 
-Purpose of article:
-+ encourage open source involement
-+ explain how to contribute
+It wasn't until two years into my career that I made my first open source contribution. I, and if you're reading this you probably feel the same, wasn't entirely sure how to go about pushing code to a project. After all, most projects don't include information about contributing. It can be tribal knowledge. Tribal knowledge that I wish to share today.
 
+### Why contribute to open source
 
-It took me over two years into my career to start contributing to open source. I, and if you're reading this you probably feel the same, felt intimidated by proposing changes to a project that someone else with (presumably) many more years of experience created and will critique. But It's also the best way to hone your skillset because if they critique your code, you will learn and fine tune your craft. And the more code you expose yourself to, the better your code will be. If you ascribe to Malcolm Gladwell's 10,000 hour rule you will know that exposure and practice play a huge part in developing skillsets.
+Simply put: it will make you a better programmer.
 
-Much like Pascal's Wager, the worst case for contributing (the maintainer rejecting your change) is the same (from a project perspective) as doing nothing. My only regret for waiting so long to contribute was not doing it sooner.
+It will expose you to many new tools and patterns that you won't be exposed to in your current team.
+
+The more code you expose yourself to, the better the code you write will be. If you subscribe to Malcolm Gladwell's *10,000 hour rule* from his book [*Outliers*](https://www.amazon.com/dp/B001ANYDAO/), you know that exposure and practice play a huge part in developing any skillsets.
+
+### Tackling the fear
+
+It can be intimidating to a younger developer to push code to a project that (presumably) a much more senior developer maintains. One of the biggest mistakes I made coming out of college was assuming seniority corrolated to an increase skillset. More on that in a future post.
+
+**There is nothing to fear in contributing to an open source project!** Worst case scenario, the maintainer rejects your change and you walk away with experience because you exposed yourself to another codebase and practiced writing more code making you a better developer.
+
+### It looks good to future employers
 
 I consider open source contributions a big plus on a a developer's resume. It shows enthusiasm and excitment for their field and their craft of building great software. With so many open source libraries available, if they haven't contributed to something, I'd be concerned.
 
-If you are an employer/mananger (or will one day be one), let your employees contribute to open source libraries. Their contributions expose them to more code styles, patterns, and tools which in turn will help them write better code faster for YOUR company. You as an employer benefits from the increased skillset of your employee.
+### Why you should let your employees contribute
+
+If you are an employer/mananger (or will one day be one), let your employees contribute to open source libraries. The reasons mentioned above will help them write better code faster for YOUR company. You as an employer benefits from the increased skillset of your employee.
 
 Now if you are content with not challenging your employees and letting their skills go stagnant until they decide to leave for a company they feel they will grow in, then go for it. The cost of replacing your team is much more than the small time investment of allowing your team to learn and give back to the community. The same community that releases all the open source tools and libraries you use on a daily basis.
 
-Successful open source projects are very maintainable and usually are written with good patterns and tools. These patterns and tools are good to follow on your projects.
+Without further digression, lets get to why you are reading this...
 
-Keep in mind that one of the biggest drawbacks in open source software is the (lack of) documentation. And that is the easiest thing for you to fix. For this tutorial we will be fixing what amounts to a documentation fix.
+## How to contribute
 
-### How to contribute
+For this tutorial we will be fixing what amounts to a documentation fix. After all, poor documentation is a problem in open source.
 
 Here is the step by step process to contribute to an open source project. This is an expansion of [my contribution guidelines](https://github.com/TheOneTheOnlyDavidBrown/contributing_guidelines/blob/master/CONTRIBUTING.md)
 
@@ -43,7 +54,7 @@ Here is the step by step process to contribute to an open source project. This i
 
 - Now that you have the code in a repository that you own, it's time to clone it to your machine. **Click the 'clone' button** and copy the url to your clip board.
 
-- Open up a terminal and **navigate to the directory that houses your projects**. So if your `projects` directory is in your home directory, you'd enter `cd ~/projects` then `git clone <paste your url here>` (no <>s) the run `cd ` to enter the projects directory.
+- Open up a terminal and **navigate to the directory that houses your projects**. So if your `projects` directory is in your home directory, you'd enter `cd ~/projects` then `git clone <paste your url here>` (no <>s) then run `cd ` to enter the projects directory.
 
 - You now have your project on your machine and ready to edit! Woohoo!
 
@@ -53,9 +64,9 @@ Here is the step by step process to contribute to an open source project. This i
 
 - If this were a code based change, **this is where you would write/run the tests to make sure you didn't break anything.**
 
-- Go back to the terminal and type **`git add README.md`**. This stages your files so you can clump changes together for simplicity.
+- Go back to the terminal and type **`git add README.md`**. This stages your files so you can clump changes together for simplicity. You could add multiple files here so they are all pushed in one chunk.
 
-- Then **`git commit -m 'adding a name to README.md'`**. Or you could put something more clever to make me laugh. This says that all the files that you staged are one cohesive change and the message is what will go in the log.
+- Then **`git commit -m 'adding a name to README.md'`**. Or you could put something more clever in the commit message to make me laugh. This says that all the files that you staged are one cohesive change and the message is what will go in the log.
 
 - Now run **`git push origin master`**. This sends your code to your repository on GitHub. Just one more step before it's up to me to merge in your changes.
 
@@ -65,9 +76,11 @@ Here is the step by step process to contribute to an open source project. This i
 
 - **Compare the changes** to make sure you are trying to merge the right code in.
 
-- Click **Create pull request**.
+- Click **Create pull request** and you are done.
 
 - From there, **I can merge your changes in!**
 
 Hooray! **You made your first open source contribution!** This process is the same (sans any project specific requirements like running tests) for any project on GitHub so go out and contribute!
+
+If you liked this article please share it with someone.
 
