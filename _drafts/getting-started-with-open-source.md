@@ -20,21 +20,21 @@ Simply put: it will make you a better programmer.
 
 It will expose you to many new tools and patterns that you won't be exposed to in your current team.
 
-The more code you expose yourself to, the better the code you write will be. If you subscribe to Malcolm Gladwell's *10,000 hour rule* from his book [*Outliers*](https://www.amazon.com/dp/B001ANYDAO/), you know that exposure and practice play a huge part in developing any skillsets.
+The more code you expose yourself to, the better the code you write will be. If you subscribe to Malcolm Gladwell's *10,000 hour rule* from his book [*Outliers*](https://www.amazon.com/dp/B001ANYDAO/), you know that exposure and practice play a huge part in developing any skill-sets.
 
 ### Tackling the fear
 
-It can be intimidating to a younger developer to push code to a project that (presumably) a much more senior developer maintains. One of the biggest mistakes I made coming out of college was assuming seniority corrolated to an increase skillset. More on that in a future post.
+It can be intimidating to a younger developer to push code to a project that (presumably) a much more senior developer maintains. One of the biggest mistakes I made coming out of college was assuming seniority correlated to an increase skill-set. More on that in a future post.
 
 **There is nothing to fear in contributing to an open source project!** Worst case scenario, the maintainer rejects your change and you walk away with experience because you exposed yourself to another codebase and practiced writing more code making you a better developer.
 
 ### It looks good to future employers
 
-I consider open source contributions a big plus on a a developer's resume. It shows enthusiasm and excitment for their field and their craft of building great software. With so many open source libraries available, if they haven't contributed to something, I'd be concerned.
+I consider open source contributions a big plus on a developer's resume. It shows enthusiasm and excitement for their field and their craft of building great software. With so many open source libraries available, if they haven't contributed to something, I'd be concerned.
 
 ### Why you should let your employees contribute
 
-If you are an employer/mananger (or will one day be one), let your employees contribute to open source libraries. The reasons mentioned above will help them write better code faster for YOUR company. You as an employer benefits from the increased skillset of your employee.
+If you are an employer/manager (or will one day be one), let your employees contribute to open source libraries. The reasons mentioned above will help them write better code faster for YOUR company. You as an employer benefits from the increased skill-set of your employee.
 
 Now if you are content with not challenging your employees and letting their skills go stagnant until they decide to leave for a company they feel they will grow in, then go for it. The cost of replacing your team is much more than the small time investment of allowing your team to learn and give back to the community. The same community that releases all the open source tools and libraries you use on a daily basis.
 
@@ -52,7 +52,7 @@ Here is the step by step process to contribute to an open source project. This i
 
 - Now that you've created your Github account, head over to [**my repository**]() and click on the **'fork'** button. This creates a copy of the codebase under your name so you can edit and add code as needed. For this tutorial, I'll have you add your name/social media handle (how else am I supposed to follow you?) to the README.md file.
 
-- Now that you have the code in a repository that you own, it's time to clone it to your machine. **Click the 'clone' button** and copy the url to your clip board.
+- Now that you have the code in a repository that you own, it's time to clone it to your machine. **Click the 'clone' button** and copy the URL to your clip board.
 
 - Open up a terminal and **navigate to the directory that houses your projects**. So if your `projects` directory is in your home directory, you'd enter `cd ~/projects` then `git clone <paste your url here>` (no <>s) then run `cd ` to enter the projects directory.
 
@@ -83,4 +83,3 @@ Here is the step by step process to contribute to an open source project. This i
 Hooray! **You made your first open source contribution!** This process is the same (sans any project specific requirements like running tests) for any project on GitHub so go out and contribute!
 
 If you liked this article please share it with someone.
-
