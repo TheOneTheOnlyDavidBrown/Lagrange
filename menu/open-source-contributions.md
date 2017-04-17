@@ -29,4 +29,4 @@ communication, schema based modeler, Router, and a State machine.
 
 [**CrunchPowModel**](https://github.com/TheOneTheOnlyDavidBrown/crunchpow-model) *Model layer applications*
 * Schema based model layer with types.
-* Has built in RESTful calls
+* Has built-in RESTful calls.

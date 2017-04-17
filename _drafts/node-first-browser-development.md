@@ -11,17 +11,17 @@ image:
   creditlink:
 ---
 
-While building an [open source library recently](), I inadvertently built it in a way that turned out to be a better approach to building browser based Javascript tool. I built it using the [Kent C. Dodds approach]() to open source Javascript libraries, and what I found was that it was much quicker to develop in node than in a browser especially when you throw in test driven development.
+While building an [open source library recently](https://github.com/TheOneTheOnlyDavidBrown/crunchpow-model), I inadvertently built it in a way that turned out to be a better approach to building browser based Javascript tool. I built it using the [Kent C. Dodds approach to writing open source Javascript libraries](https://egghead.io/lessons/javascript-how-to-write-a-javascript-library-introduction),  and what I found was that it was much quicker to develop in node than in a browser especially when you use test driven development.
 
-The long and short of it is this: building your application in node with tests makes your browser based application better and more maintainable.
+The long and short of it is this: building your application in node with tests makes your browser based application better and more maintainable due to it's modularity and separation from the rest of your application.
 
-With modern frameworks and their data bindings, **the rendered view should be no more than a pretty representation of the model and a way for the user to update the model**. Effectively if you put a 1 second interval around your endpoint call to save data, it should always have the correct data ready to be sent.
+With modern frameworks and their data bindings, **the rendered view should be no more than a pretty representation of the model for the user to view**. Effectively if you put a 1 second interval around your endpoint call to save data, it should always have the correct data ready to be sent.
 
 **All actions on the page should be accessible programmatically.** The view is just the interface for the user to manage the model.
 
 So if all actions should be accessible programmatically, then it makes sense to build your library in node first. It makes it easier to test and quicker to develop because you can have your tests in a terminal with a watch on it so you can see immediately if your code is doing what it's supposed to. That and verify that your new changes didn't break any existing features.
 
-This is an extension of the idea of [separating your logic from your framework]() in that you have as minimal dependencies on your application as possible.
+This is an extension of the idea of [separating your logic from your framework]() but in this case you have less dependency on both your framework AND the rest of your application.
 
 Example:
 
@@ -51,7 +51,6 @@ You may think this is nitpicky but it makes the code more testable and adheres t
 With the latter you can now run a test that says:
 
 ```javascript
-
 // set showStatus to false
 // expect it to be false
 // run toggleStatus()
