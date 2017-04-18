@@ -20,7 +20,7 @@ Simply put: it will make you a better programmer.
 
 It will expose you to many new tools and patterns that you won't be exposed to in your current team.
 
-The more code you expose yourself to, the better the code you write will be. If you subscribe to Malcolm Gladwell's *10,000 hour rule* from his book [*Outliers*](https://www.amazon.com/dp/B001ANYDAO/), you know that exposure and practice play a huge part in developing any skill-sets.
+The more code you expose yourself to, the better the code you write will be. If you subscribe to Malcolm Gladwell's *10,000 hour rule* from his book [*Outliers*](http://amzn.to/2nXgjT2), you know that exposure and practice play a huge part in developing any skill-sets.
 
 ### Tackling the fear
 
