@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Getting started with open source"
-date: 2017-04-29
+date: 2017-04-18
 categories: musings
 tags: [open-source,git,github,advice]
 comments: true
@@ -50,7 +50,7 @@ Here is the step by step process to contribute to an open source project. This i
 
 - **Then learn some basic Git.** [This tutorial](https://try.github.io/levels/1/challenges/1) will teach you enough of the basics to get started.
 
-- Now that you've created your Github account, head over to [**my repository**]() and click on the **'fork'** button. This creates a copy of the codebase under your name so you can edit and add code as needed. For this tutorial, I'll have you add your name/social media handle (how else am I supposed to follow you?) to the README.md file.
+- Now that you've created your Github account, head over to [**my repository**](https://github.com/TheOneTheOnlyDavidBrown/getting-started-with-open-source) and click on the **'fork'** button. This creates a copy of the codebase under your name so you can edit and add code as needed. For this tutorial, I'll have you add your name/social media handle (how else am I supposed to follow you?) to the README.md file.
 
 - Now that you have the code in a repository that you own, it's time to clone it to your machine. **Click the 'clone' button** and copy the URL to your clip board.
 
