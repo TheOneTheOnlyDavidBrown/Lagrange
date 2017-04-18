@@ -3,7 +3,7 @@ layout: post
 title: "Getting started with open source"
 date: 2017-04-18
 categories: musings
-tags: [open-source,git,github,advice]
+tags: [open-source,git,github,advice,development]
 comments: true
 image:
   feature: hacker.jpg
