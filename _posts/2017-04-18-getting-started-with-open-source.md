@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Getting started with open source"
-date: 2017-04-28
+date: 2017-04-18
 categories: musings
 tags: [open-source,git,github,advice]
 comments: true
