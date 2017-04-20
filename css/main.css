@@ -459,6 +459,7 @@ pre.highlight code {
 }
 
 .handle-image {
+    width: 50px;
     display: inline;
     border-radius: 50%;
 }
