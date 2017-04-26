@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Node first browser development"
-date: 2018-04-20
+date: 2017-05-01
 categories: musings
 tags: [development,javascript,node]
 image:
@@ -21,7 +21,7 @@ With that being said, it follows that **all actions on the page should be access
 
 So if all actions should be accessible programmatically, then it makes sense to build your library without the interface (using Node) first. It makes it easier to test and quicker to develop because you can have your tests in a terminal with a watch flag on it so you can see immediately if your code is doing what it's supposed to. And, equally if not more importantly, verify that your changes didn't break any existing features.
 
-This is an extension of the idea of [separating your logic from your framework](http://davidcbrown.io/musings/decoupling-application-logic-from-your-framework.html){:target="_blank"} but in this case you have less dependency on both your framework AND the rest of your application. 
+This is an extension of the idea of [separating your logic from your framework](http://davidcbrown.io/musings/decoupling-application-logic-from-your-framework.html){:target="_blank"} but in this case you have less dependency on both your framework AND the rest of your application.
 
 Example:
 
