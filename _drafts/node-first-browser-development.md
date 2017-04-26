@@ -3,7 +3,7 @@ layout: post
 title: "Node first browser development"
 date: 2018-04-20
 categories: musings
-tags: [development,javascript,node,angular]
+tags: [development,javascript,node]
 image:
   feature: javascript.jpg
   teaser: javascript-teaser.jpg
@@ -11,17 +11,17 @@ image:
   creditlink:
 ---
 
-While building an [open source library recently](https://github.com/TheOneTheOnlyDavidBrown/crunchpow-model), I inadvertently built it in a way that turned out to be a better approach to building browser based Javascript tools. I built it using the [Kent C. Dodds' approach to writing open source Javascript libraries](https://egghead.io/lessons/javascript-how-to-write-a-javascript-library-introduction),  and what I found was that it was much quicker to develop in node than in a browser especially when you use test driven development.
+Recently, I released an [open source library recently](https://github.com/TheOneTheOnlyDavidBrown/crunchpow-model). After building it, I realized I approached it in a way that yields better browser based Javascript tools. I built it using the [Kent C. Dodds' approach to writing open source Javascript libraries](https://egghead.io/lessons/javascript-how-to-write-a-javascript-library-introduction), and what I found was that it was much quicker to develop in node than in a browser especially when you use test driven development. It follows the Unix philosophy of building applications that do one thing but do it well.
 
-The long and short of it is this: building your application in node with tests makes your browser based application better and more maintainable due to it's modularity and separation from the rest of your application.
+The long and short of it is this: building your application in node with tests then using the Universal Module Loader makes your browser based library better and more maintainable due to it's modularity and separation from the rest of your application.
 
 With modern frameworks and their data bindings, **the rendered view should be no more than a pretty representation of the model for the user to view**. Effectively if you put a 1 second interval around your endpoint call to save data, it should always have the correct data ready to be sent.
 
 With that being said, it follows that **all actions on the page should be accessible programmatically.** The view is just the interface for the user to view the model.
 
-So if all actions should be accessible programmatically, then it makes sense to build your library in node first. It makes it easier to test and quicker to develop because you can have your tests in a terminal with a watch flag on it so you can see immediately if your code is doing what it's supposed to. And, equally if not more importantly, verify that your new changes didn't break any existing features.
+So if all actions should be accessible programmatically, then it makes sense to build your library without the interface (using Node) first. It makes it easier to test and quicker to develop because you can have your tests in a terminal with a watch flag on it so you can see immediately if your code is doing what it's supposed to. And, equally if not more importantly, verify that your changes didn't break any existing features.
 
-This is an extension of the idea of [separating your logic from your framework]() but in this case you have less dependency on both your framework AND the rest of your application.
+This is an extension of the idea of [separating your logic from your framework](http://davidcbrown.io/musings/decoupling-application-logic-from-your-framework.html) but in this case you have less dependency on both your framework AND the rest of your application. 
 
 Example:
 
@@ -59,9 +59,4 @@ With the latter you can now run a test that says:
 
 You can't do this with the logic in the view layer.
 
-Here's how to do it: 
-
-First, watch [Kent C. Dodds' writing open source libraries](https://egghead.io/lessons/javascript-how-to-write-a-javascript-library-introduction) series on Egghead. You won't regret it.
-
-In the series, he uses Universal Module Definition to make it browser compliant.
-
+Now that you've learned a new approach, use it! And if you liked this article, you'll probably like [this article](http://davidcbrown.io/musings/decoupling-application-logic-from-your-framework.html). And feel free to share if you enjoyed it!
