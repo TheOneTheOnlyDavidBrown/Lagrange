@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Node first browser development"
-date: 2017-05-01
+date: 2017-04-27
 categories: musings
 tags: [development,javascript,node]
 image:
