@@ -46,7 +46,7 @@ class MyPage {
 
 You may think this is nitpicky but it makes the code more testable and adheres to the principle of the view being the visual layer and not the logic layer. You can't test the expression in the ng-click in the first example but you can in the second because it's in the logic layer instead of the view layer. Node first development forces you to write it in the form of the second because there is no view layer in Node!
 
-To sound like a broken record (I wonder how many millenials know what that means), **Node first development yields a more testable codebase.**
+To sound like a broken record (I wonder how many fellow millennials know what that means), **Node first development yields a more testable codebase.**
 
 With the latter you can now run a test that says:
 
@@ -59,4 +59,4 @@ With the latter you can now run a test that says:
 
 You can't do this with the logic in the view layer.
 
-Now that you've learned a new approach, use it! And if you liked this article, you'll probably like [this article](http://davidcbrown.io/musings/decoupling-application-logic-from-your-framework.html){:target="_blank"}. And feel free to share if you enjoyed it!
+Now that you've learned a new approach, use it! And if you liked this article, you'll definitely like [this article](http://davidcbrown.io/musings/decoupling-application-logic-from-your-framework.html){:target="_blank"}. And feel free to share if you enjoyed it!
