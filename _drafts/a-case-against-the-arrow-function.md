@@ -36,7 +36,7 @@ const functionContainer1 = {
 
 Let's start with using functions as object properties. For this example, we'll use setTimeout(callbackFn) because it offers a callback function that runs in a separate closure. Notice the comments regarding what `this` object references at each step of the functions as well as where the stack-trace will indicate an error occurred.
 
-```
+```javascript
 // `this` is the `window` object
 const objectExample = {
   // bad for many reasons. reference to 'this' and bad stack-trace
