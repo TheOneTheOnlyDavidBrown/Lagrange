@@ -12,7 +12,7 @@ image:
   creditlink:
 ---
 
-It's not uncommon by any means to have a function call in a callback function. For example, in your `success` function on an promise, you may call an `onSuccess` function that handles the logic after the call. It can be problematic to use an arrow function as the callback function for `success` because it "loses" the reference to `this`.
+It's not uncommon by any means to have a reference to this.somefunction() within the body of an arrow callback. For example, in your `success` function on an promise, you may call an `onSuccess` function that handles the logic after the call. It can be problematic to use an arrow function as the callback function for `success` because it "loses" the reference to `this`.
 
 By "losing" what is really happening is that the closure of the arrow function is lexically bound to the `success` function of the promise library (because thats where the function is called). Therefore, when you reference `this` in your codebase in your success callback, it is not the `this` you are expecting.
 
