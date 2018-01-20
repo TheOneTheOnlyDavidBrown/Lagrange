@@ -3,7 +3,7 @@ layout: post
 title: "Keeping Your Software On Track"
 date: 2018-01-20
 categories: musings
-tags: [advice,development]
+tags: [advice,development,project-management]
 comments: true
 image:
   feature: keeping-software-on-track.jpg
