@@ -28,11 +28,11 @@ One issue that the JavaScript community suffers from, is a proclivity to reinven
 
 The examples below suggests that you can inject your framework-specific libraries into your extracted module. You _can_ do this but I would suggest against it in place of using another framework-agnostic library from the start and locking the version of the dependency. Then during a migration, you can run your tests to verify that it still works and refactor if not. There will be times when you will have to fix the module upon migration to allow for an updated injected library since updating libraries during a migration is an opportune time to do so. In most cases, fixing a module is a lot easier than re-writing the whole module.
 
-Even better than injecting libraries, I suggest using built in browser functions. In the case of Angular's `$http`, I suggest using the browser's [`fetch()`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) function (and Github's [fetch polyfill](https://github.com/github/fetch) for not yet supported browsers). Then when the module is used elsewhere, it works exactly as it did to begin with because it has no reliance on a specific framework.
+Even better than injecting libraries, I suggest using built in browser functions. In the case of Angular's `$http`, I suggest using the browser's [`fetch()`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API){:target="_blank"} function (and Github's [fetch polyfill](https://github.com/github/fetch){:target="_blank"} for not yet supported browsers). Then when the module is used elsewhere, it works exactly as it did to begin with because it has no reliance on a specific framework.
 
 ## The How
 
-Let's say we are building an Angular app with a controller named BusinessCtrl and we want to integrate a pure JavaScript BusinessLogic module. Here are a few ways to do this which allow easier migrations to Angular 2 (using [controller-as syntax](https://toddmotto.com/digging-into-angulars-controller-as-syntax/) in the 1.x examples). The following examples are not just limited to exported classes but can also be used when exporting a function from a module.
+Let's say we are building an Angular app with a controller named BusinessCtrl and we want to integrate a pure JavaScript BusinessLogic module. Here are a few ways to do this which allow easier migrations to Angular 2 (using [controller-as syntax](https://toddmotto.com/digging-into-angulars-controller-as-syntax/){:target="_blank"} in the 1.x examples). The following examples are not just limited to exported classes but can also be used when exporting a function from a module.
 
 
 {% highlight javascript %}
@@ -85,7 +85,7 @@ controller() {
 controller: BusinessLogic
 {% endhighlight %}
 
-Now let's compare this to the [component syntax for Angular 2](http://learnangular2.com/components/).
+Now let's compare this to the [component syntax for Angular 2](http://learnangular2.com/components/){:target="_blank"}.
 
 {% highlight javascript %}
 import {Component} from 'angular2/angular2'
@@ -106,7 +106,7 @@ export class MyComponent {
 
 You'll notice that the MyComponent class looks an awful lot like the BusinessLogic class in the first example. This creates the reusability factor mentioned in the beginning of this article and makes migrations from framework to framework (or updated versions of your framework) that much easier.
 
-One caveat to the approach for modularity is that you end up with multiple instances of your module. Behind the scenes each time it's being called, it's instantiating a new object. To avoid this you could use a [singleton](https://en.wikipedia.org/wiki/Singleton_pattern) ([example in ES6](http://amanvirk.me/singleton-classes-in-es6/)). Be careful when using singletons though as they are considered an [anti-pattern](https://en.wikipedia.org/wiki/Anti-pattern) and generally considered poor practice to use.
+One caveat to the approach for modularity is that you end up with multiple instances of your module. Behind the scenes each time it's being called, it's instantiating a new object. To avoid this you could use a [singleton](https://en.wikipedia.org/wiki/Singleton_pattern){:target="_blank"} ([example in ES6](http://amanvirk.me/singleton-classes-in-es6/){:target="_blank"}). Be careful when using singletons though as they are considered an [anti-pattern](https://en.wikipedia.org/wiki/Anti-pattern) and generally considered poor practice to use.
 
 Another caveat is when you have to call `$scope.$apply()`. In this case, you will need to inject `$scope` into your module to allow you to run this. This is an easy refactor when migrating though because it is easy to find and remove these calls.
 

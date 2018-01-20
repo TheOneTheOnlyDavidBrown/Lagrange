@@ -20,7 +20,7 @@ Simply put: it will make you a better programmer.
 
 It will expose you to many new tools and patterns that you won't be exposed to in your current team.
 
-The more code you expose yourself to, the better the code you write will be. If you subscribe to Malcolm Gladwell's *10,000 hour rule* from his book [*Outliers*](http://amzn.to/2nXgjT2), you know that exposure and practice play a huge part in developing any skill-sets.
+The more code you expose yourself to, the better the code you write will be. If you subscribe to Malcolm Gladwell's *10,000 hour rule* from his book [*Outliers*](http://amzn.to/2nXgjT2){:target="_blank"}, you know that exposure and practice play a huge part in developing any skill-sets.
 
 ### Tackling the fear
 
@@ -44,13 +44,13 @@ Without further digression, lets get to why you are reading this...
 
 For this tutorial we will be fixing what amounts to a documentation fix. After all, poor documentation is a problem in open source.
 
-Here is the step by step process to contribute to an open source project. This is an expansion of [my contribution guidelines](https://github.com/TheOneTheOnlyDavidBrown/contributing_guidelines/blob/master/CONTRIBUTING.md)
+Here is the step by step process to contribute to an open source project. This is an expansion of [my contribution guidelines](https://github.com/TheOneTheOnlyDavidBrown/contributing_guidelines/blob/master/CONTRIBUTING.md){:target="_blank"}
 
-- First things first, create a [**GitHub**](http://github.com) account.
+- First things first, create a [**GitHub**](http://github.com){:target="_blank"} account.
 
-- **Then learn some basic Git.** [This tutorial](https://try.github.io/levels/1/challenges/1) will teach you enough of the basics to get started.
+- **Then learn some basic Git.** [This tutorial](https://try.github.io/levels/1/challenges/1){:target="_blank"} will teach you enough of the basics to get started.
 
-- Now that you've created your Github account, head over to [**my repository**](https://github.com/TheOneTheOnlyDavidBrown/getting-started-with-open-source) and click on the **'fork'** button. This creates a copy of the codebase under your name so you can edit and add code as needed. For this tutorial, I'll have you add your name/social media handle (how else am I supposed to follow you?) to the README.md file.
+- Now that you've created your Github account, head over to [**my repository**](https://github.com/TheOneTheOnlyDavidBrown/getting-started-with-open-source){:target="_blank"} and click on the **'fork'** button. This creates a copy of the codebase under your name so you can edit and add code as needed. For this tutorial, I'll have you add your name/social media handle (how else am I supposed to follow you?) to the README.md file.
 
 - Now that you have the code in a repository that you own, it's time to clone it to your machine. **Click the 'clone' button** and copy the URL to your clip board.
 

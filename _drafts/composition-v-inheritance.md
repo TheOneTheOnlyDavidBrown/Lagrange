@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Composition v. Inheritance"
-date: 2017-04-29
+date: 2018-05-01
 categories: musings
-tags: [open-source,git,github,advice]
+tags: [open-source,advice,programming]
 comments: true
 image:
   feature: computer.jpg
@@ -12,11 +12,13 @@ image:
   creditlink:
 ---
 
-One thing is constant in all of software development - your project requirements will change. In order mitigate the cost of change, you need a good pattern. Inheritance can work but often you will find yourself in a position of finding your inheritance to be a 'kind of like' relationship.
 
-Every developer at some point has been told "don't repeat yourself" or DRY. This is true but it lends itself to refactoring into poor designs. Poor design decisions cost your company money, can delay a product launch, and usually end with the product being less than stellar and difficult to maintain.
 
-By using a software pattern than is flexible, you will reduce the cost of change, make the project more maintainable, and most likely finish the project earlier. There are a plethora of design patterns but I want to focus on the composition design pattern and how it can be used in place of inheritance. This is not a one size fits all pattern and should only be used where it make sense. As should inheritance.
+One thing is constant in all of software development - your project requirements will change. Most of the headaches of major refactors can be avoided by using the correct design pattern. Inheritance can work but often you will find yourself in a position of finding your inheritance to be a 'kind of like' relationship.
+
+Every developer at some point has been told "don't repeat yourself" or DRY. This isn't terrible advice in theory, but it lends itself to refactoring into poor designs. Poor design decisions cost your company money, can delay a product launch, and usually end with the product being less than stellar and difficult to maintain. The more difficult a product is to maintain, the more costly it is.
+
+By using a software pattern that is flexible, you will reduce the cost of change, make the project more maintainable, and most likely finish the project earlier. There are a plethora of design patterns on the composition design pattern and how it can be used in place of inheritance. This is not a one size fits all pattern and should only be used where it make sense. As should inheritance.
 
 If you're familiar with Entity Relationship Diagrams (ERDs), you'll realize that database design does not have inheritance but rather a 'has' relationship. A plane has many engines, for example. You will also realize that a properly thought out database is very flexible and prevents a lot of anomalies. So when you develop software, you should put yourself into a database architect mindset and develop with a pattern that mimics a database design.
 

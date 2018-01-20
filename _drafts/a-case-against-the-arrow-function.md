@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A Case Against Javascript's Arrow Function"
-date: 2017-05-20
+date: 2018-05-20
 categories: musings
 tags: [advice,development]
 comments: true
@@ -16,7 +16,7 @@ It's not uncommon by any means to have a reference to this.somefunction() within
 
 By "losing" what is really happening is that the closure of the arrow function is lexically bound to the `success` function of the promise library (because thats where the function is called). Therefore, when you reference `this` in your codebase in your success callback, it is not the `this` you are expecting.
 
-Another side effect of the arrow function is that it is by definition an anonymous function. This makes for difficult stack-traces. 
+Another side effect of the arrow function is that it is by definition an anonymous function. This makes for difficult stack-traces.
 
 ## Let's fix `this` AND have stack-traces
 

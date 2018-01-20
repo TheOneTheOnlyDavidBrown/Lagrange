@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to: Wire A House For Cat-6a Ethernet"
-date: 2017-04-10
+date: 2018-04-10
 categories: musings
 tags: [documentation,howto]
 image:
