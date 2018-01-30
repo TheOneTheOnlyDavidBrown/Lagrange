@@ -54,7 +54,7 @@ Refrain from ever committing directly to master. With CI and PRs in place, just 
 Define your meeting times (daily stand-up, planning meeting, et. al.) then give your developers time and space to finish their tickets. Don’t interrupt them to tell them you assigned them a ticket or for an ad-hoc status update or statements like “I sent you an invite for a meeting next week”. Don’t do it. EVER! The task switching destroys their productivity, mentally exhausts them - which WILL lead to burnout, and increases the chance of bugs introduced (albeit less since the tests should have been written before coding). Impromptu meetings will drive good talent away. Now think about how much it would cost to recruit and retrain a replacement. Is it worth it to tell them they have a new ticket assign that they will absolutely see in due time without intervention? Didn’t think so.
 
 
-### Rule #6: Set deadlines and expectations and allow your developers to work when/where/how they please.
+### Rule #6: Set deadlines and expectations and allow your developers to work when/where/how they please
 
 Parkinson’s Law states that “work expands so as to fill the time available for its completion.” And as such, it doesn’t matter how many hours your developer puts in, they will hit their deadline. Trust them. They are functioning professional adults, or you wouldn’t have hired them. Treat them as such.
 
@@ -69,7 +69,7 @@ Your developers know when their mind is working and when all their thought cycle
 Every extra step is another step that could break something. If you have to edit 5+ files to update various flags, update the version, and uncomment lines, you’re doing it wrong. If one minor step is missed and you build and deploy it then realize you have to rebuild it, it takes time and unnecessary energy.
 
 
-### Rule #8: Use a database migrator and seed data.
+### Rule #8: Use a database migrator and seed data
 Using a migrator is basically using version control on your database schema. It allows you to shift back to previous releases (or other branches) without having to deal with incompatible database schemas. Seed data allows you to populate the data correctly. In a eutopia you should never have to manually run a SQL script.
 
 
