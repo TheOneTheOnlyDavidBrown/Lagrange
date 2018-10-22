@@ -467,3 +467,35 @@ pre.highlight code {
 .clearfix {
     clear: both;
 }
+
+/* forms */
+form input,
+form textarea,
+form button {
+    position:relative;
+    display:block;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #00000038;
+}
+form input {
+    padding: 5px;
+    width: 100%;
+}
+form textarea {
+    padding: 5px;
+    height: 100px;
+    width: 100%;
+}
+form button {
+    background-color: #616161;
+    color:#fff;
+    padding: 10px 50px;
+    margin: auto;
+}
+form button:hover {
+    color: #3c3c3c;
+    background-color:#ccc;
+    cursor: pointer;
+}
+
