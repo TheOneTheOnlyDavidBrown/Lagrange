@@ -8,53 +8,63 @@
 
 
 <url>
-  <loc>http://davidcbrown.io/</loc>
-  <lastmod>2018-10-24T17:44:28+00:00</lastmod>
+  <loc>https://davidcbrown.io/</loc>
+  <lastmod>2020-02-14T05:27:06+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://davidcbrown.io/menu/about</loc>
-  <lastmod>2018-10-24T17:44:28+00:00</lastmod>
+  <loc>https://davidcbrown.io/menu/about</loc>
+  <lastmod>2020-02-14T05:27:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://davidcbrown.io/menu/musings</loc>
-  <lastmod>2018-10-24T17:44:28+00:00</lastmod>
+  <loc>https://davidcbrown.io/menu/musings</loc>
+  <lastmod>2020-02-14T05:27:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://davidcbrown.io/menu/open-source-contributions</loc>
-  <lastmod>2018-10-24T17:44:28+00:00</lastmod>
+  <loc>https://davidcbrown.io/menu/open-source-contributions</loc>
+  <lastmod>2020-02-14T05:27:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://davidcbrown.io/menu/contact</loc>
-  <lastmod>2018-10-24T17:44:28+00:00</lastmod>
+  <loc>https://davidcbrown.io/menu/contact</loc>
+  <lastmod>2020-02-14T05:27:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://davidcbrown.io/musings/a-case-against-the-arrow-function.html</loc>
-  <lastmod>2018-10-24T17:44:28+00:00</lastmod>
+  <loc>https://davidcbrown.io/musings/w2-v-1099.html</loc>
+  <lastmod>2020-02-14T05:27:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://davidcbrown.io/musings/keeping-your-software-on-track.html</loc>
-  <lastmod>2018-10-24T17:44:28+00:00</lastmod>
+  <loc>https://davidcbrown.io/musings/a-case-against-the-arrow-function.html</loc>
+  <lastmod>2020-02-14T05:27:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://davidcbrown.io/musings/node-first-browser-development.html</loc>
-  <lastmod>2018-10-24T17:44:28+00:00</lastmod>
+  <loc>https://davidcbrown.io/musings/keeping-your-software-on-track.html</loc>
+  <lastmod>2020-02-14T05:27:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://davidcbrown.io/musings/getting-started-with-open-source.html</loc>
-  <lastmod>2018-10-24T17:44:28+00:00</lastmod>
+  <loc>https://davidcbrown.io/musings/node-first-browser-development.html</loc>
+  <lastmod>2020-02-14T05:27:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://davidcbrown.io/musings/decoupling-application-logic-from-your-framework.html</loc>
-  <lastmod>2018-10-24T17:44:28+00:00</lastmod>
+  <loc>https://davidcbrown.io/musings/getting-started-with-open-source.html</loc>
+  <lastmod>2020-02-14T05:27:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://davidcbrown.io/musings/decoupling-application-logic-from-your-framework.html</loc>
+  <lastmod>2020-02-14T05:27:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://davidcbrown.io/page2/</loc>
+  <lastmod>2020-02-14T05:27:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
